@@ -2,7 +2,6 @@ import './App.css';
 import React, { Component } from 'react'
 import NavBar from './component/NavBar';
 import News from './component/News';
-
 //import PropTypes from 'prop-types';
 
 import {
@@ -24,8 +23,6 @@ state ={
 setProgress = (progress)=>{
 this.setstate({progress: progress})
 }
-
-
   render() {
     return (
       <div>
@@ -51,6 +48,9 @@ this.setstate({progress: progress})
         </Router>
       </div>
     )
+
+
+ 
 
   }
 }
